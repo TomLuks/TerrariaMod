@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group":"",
+  "ingredients":
+  [
+    {"item": "terrariamod:shroomite_block"}
+  ],
+  "result":
+  {
+    "item": "terrariamod:shroomite_ingot",
+    "count": 9
+  }
+
+}

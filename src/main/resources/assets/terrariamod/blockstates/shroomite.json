@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "terrariamod:block/shroomite" },
+    "facing=south": { "model": "terrariamod:block/shroomite", "y": 180 },
+    "facing=west": { "model": "terrariamod:block/shroomite", "y": 270 },
+    "facing=east": { "model": "terrariamod:block/shroomite", "y": 90 }
+  }
+}

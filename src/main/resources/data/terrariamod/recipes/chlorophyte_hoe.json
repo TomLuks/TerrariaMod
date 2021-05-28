@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "tt",
+        " /",
+        " /"
+    ],
+    "key": {
+        "t": {
+            "item": "terrariamod:chlorophyte_ingot"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "terrariamod:chlorophyte_hoe",
+        "count": 1
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ccc",
+    "c c"
+  ],
+  "key": {
+    "c": {
+      "item": "terrariamod:chlorophyte_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "terrariamod:chlorophyte_helmet",
+    "count": 1
+  }
+}

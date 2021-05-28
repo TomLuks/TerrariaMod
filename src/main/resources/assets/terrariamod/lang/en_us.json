@@ -1,0 +1,37 @@
+{
+  "item.terrariamod.chlorophyte_ingot": "Chlorophyte Ingot",
+  "block.terrariamod.chlorophyte_block": "Chlorophyte Block",
+  "block.terrariamod.shroomite_block": "Shroomite Block",
+  "item.terrariamod.shroomite_ingot": "Shroomite Ingot",
+  "block.terrariamod.chlorophyte_ore": "Chlorophyte Ore",
+  "item.terrariamod.burger": "Burger",
+  "block.terrariamod.shroomite": "Shroomite",
+
+  "item.terrariamod.chlorophyte_shovel": "Chlorophyte Shovel",
+  "item.terrariamod.chlorophyte_sword": "Chlorophyte Sword",
+  "item.terrariamod.chlorophyte_pickaxe": "Chlorophyte Pickaxe",
+  "item.terrariamod.chlorophyte_hoe": "Chlorophyte Hoe",
+  "item.terrariamod.chlorophyte_axe": "Chlorophyte Axe",
+
+  "item.terrariamod.shroomite_shovel": "Shroomite Shovel",
+  "item.terrariamod.shroomite_sword": "Shroomite Sword",
+  "item.terrariamod.shroomite_pickaxe": "Shroomite Pickaxe",
+  "item.terrariamod.shroomite_hoe": "Shroomite Hoe",
+  "item.terrariamod.shroomite_axe": "Shroomite Axe",
+
+  "item.terrariamod.chlorophyte_helmet": "Chlorophyte Helmet",
+  "item.terrariamod.chlorophyte_chestplate": "Chlorophyte Chestplate",
+  "item.terrariamod.chlorophyte_leggings": "Chlorophyte Leggings",
+  "item.terrariamod.chlorophyte_boots": "Chlorophyte Boots",
+
+  "item.terrariamod.shroomite_boots": "Shroomite Boots",
+  "item.terrariamod.shroomite_chestplate": "Shroomite Chestplate",
+  "item.terrariamod.shroomite_leggings": "Shroomite Leggings",
+  "item.terrariamod.shroomite_helmet": "Shroomite Helmet",
+
+
+
+
+  "itemGroup.TerrariaModTab": "Terraria Tab"
+
+}

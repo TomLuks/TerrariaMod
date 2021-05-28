@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "terrariamod:chlorophyte_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "terrariamod:chlorophyte_block"
+  }
+}

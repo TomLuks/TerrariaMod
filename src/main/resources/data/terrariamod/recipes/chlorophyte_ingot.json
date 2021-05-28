@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group":"",
+  "ingredients":
+  [
+    {"item": "terrariamod:chlorophyte_block"}
+  ],
+  "result":
+  {
+    "item": "terrariamod:chlorophyte_ingot",
+    "count": 9
+  }
+
+}

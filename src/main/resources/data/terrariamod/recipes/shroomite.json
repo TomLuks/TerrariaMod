@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "terrariamod:chlorophyte_ingot"
+  },
+  "addition": {
+    "item": "terrariamod:shroomite"
+  },
+  "result": {
+    "item": "terrariamod:shroomite_ingot"
+  }
+}
