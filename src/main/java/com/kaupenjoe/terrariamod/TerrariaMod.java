@@ -3,7 +3,6 @@ package com.kaupenjoe.terrariamod;
 import com.kaupenjoe.terrariamod.block.ModBlocks;
 import com.kaupenjoe.terrariamod.events.ModEvents;
 import com.kaupenjoe.terrariamod.item.ModItems;
-import com.kaupenjoe.terrariamod.item.Shroomite;
 import com.kaupenjoe.terrariamod.util.Registration;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -34,7 +33,7 @@ public class TerrariaMod {
     public static final ItemGroup MOD_TAB = new ItemGroup("TerrariaModTab") {
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(Shroomite.SHROOMITE_INGOT.get());
+            return new ItemStack(ModItems.CHLOROPHYTE_AXE.get());
         }
     };
 

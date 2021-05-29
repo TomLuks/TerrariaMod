@@ -15,6 +15,10 @@ public class ModItems {
             Registration.ITEMS.register("chlorophyte_ingot",
                     () -> new Item(new Item.Properties().group(TerrariaMod.MOD_TAB)));
 
+    public static final RegistryObject<Item> SHROOMITE_INGOT =
+            Registration.ITEMS.register("shroomite_ingot",
+                    () -> new Item(new Item.Properties().group(TerrariaMod.MOD_TAB)));
+
 
 
 
@@ -64,6 +68,50 @@ public class ModItems {
                                     .group(TerrariaMod.MOD_TAB)));
 
 
+
+
+
+
+    public static final RegistryObject<Item> SHROOMITE_SHOVEL =
+            Registration.ITEMS.register("shroomite_shovel",
+                    () -> new ShovelItem(ModItemTier.Shroomite, 0f, 2f,
+                            new Item.Properties()
+                                    .defaultMaxDamage(250)
+                                    .addToolType(ToolType.SHOVEL, 2)
+                                    .group(TerrariaMod.MOD_TAB)));
+
+    public static final RegistryObject<Item> SHROOMITE_SWORD =
+            Registration.ITEMS.register("shroomite_sword",
+                    () -> new SwordItem(ModItemTier.Shroomite, 5, 2f,
+                            new Item.Properties()
+                                    .defaultMaxDamage(250)
+                                    .group(TerrariaMod.MOD_TAB)));
+
+    public static final RegistryObject<Item> SHROOMITE_PICKAXE =
+            Registration.ITEMS.register("shroomite_pickaxe",
+                    () -> new PickaxeItem(ModItemTier.Shroomite, 0, 2f,
+                            new Item.Properties()
+                                    .defaultMaxDamage(250)
+                                    .addToolType(ToolType.PICKAXE, 2)
+                                    .group(TerrariaMod.MOD_TAB)));
+
+    public static final RegistryObject<Item> SHROOMITE_HOE =
+            Registration.ITEMS.register("shroomite_hoe",
+                    () -> new HoeItem(ModItemTier.Shroomite, 0, 2f,
+                            new Item.Properties()
+                                    .defaultMaxDamage(250)
+                                    .addToolType(ToolType.HOE, 2)
+                                    .group(TerrariaMod.MOD_TAB)));
+
+    public static final RegistryObject<Item> SHROOMITE_AXE =
+            Registration.ITEMS.register("shroomite_axe",
+                    () -> new AxeItem(ModItemTier.Shroomite, 4f, 2f,
+                            new Item.Properties()
+                                    .defaultMaxDamage(250)
+                                    .addToolType(ToolType.AXE, 2)
+                                    .group(TerrariaMod.MOD_TAB)));
+
+
     public static void register() {
     }
 
@@ -90,7 +138,34 @@ public class ModItems {
     public enum ModArmorMaterial implements IArmorMaterial {
         CHLOROPHYTE(420, new int[]{5, 8, 6, 4}, 10, SoundEvents.ITEM_ARMOR_EQUIP_GOLD,
                 Ingredient.fromStacks(new ItemStack(ModItems.CHLOROPHYTE_INGOT.get())),
-                TerrariaMod.MOD_ID + ":chlorophyte", 2, 2.1f);
+                TerrariaMod.MOD_ID + ":chlorophyte", 2, 2.1f),
+
+        SHROOMITE(650, new int[]{8, 10, 8, 6}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,
+                Ingredient.fromStacks(new ItemStack(ModItems.SHROOMITE_INGOT.get())),
+                TerrariaMod.MOD_ID + ":shroomite", 5, 4.1f);
+
+
+
+
+        public static final RegistryObject<Item> SHROOMITE_HELMET =
+                Registration.ITEMS.register("shroomite_helmet",
+                        () -> new ArmorItem(ModArmorMaterial.SHROOMITE, EquipmentSlotType.HEAD,
+                                new Item.Properties().group(TerrariaMod.MOD_TAB)));
+
+        public static final RegistryObject<Item> SHROOMITE_CHESTPLATE =
+                Registration.ITEMS.register("shroomite_chestplate",
+                        () -> new ArmorItem(ModArmorMaterial.SHROOMITE, EquipmentSlotType.CHEST,
+                                new Item.Properties().group(TerrariaMod.MOD_TAB)));
+
+        public static final RegistryObject<Item> SHROOMITE_LEGGINGS =
+                Registration.ITEMS.register("shroomite_leggings",
+                        () -> new ArmorItem(ModArmorMaterial.SHROOMITE, EquipmentSlotType.LEGS,
+                                new Item.Properties().group(TerrariaMod.MOD_TAB)));
+
+        public static final RegistryObject<Item> SHROOMITE_BOOTS =
+                Registration.ITEMS.register("shroomite_boots",
+                        () -> new ArmorItem(ModArmorMaterial.SHROOMITE, EquipmentSlotType.FEET,
+                                new Item.Properties().group(TerrariaMod.MOD_TAB)));
 
 
         private final int durability;
@@ -157,6 +232,8 @@ public class ModItems {
     public enum ModItemTier implements IItemTier {
         CHLOROPHYTE(2, 15, 3f, 0f, 15,
                 Ingredient.fromStacks(new ItemStack(ModItems.CHLOROPHYTE_INGOT.get()))),
+        Shroomite(4, 20, 4f, 0f, 20,
+                Ingredient.fromStacks(new ItemStack(SHROOMITE_INGOT.get())));
         ;
 
 
